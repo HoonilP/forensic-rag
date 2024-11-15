@@ -14,12 +14,14 @@ from langgraph.graph import END, StateGraph
 from setup_environment import set_environment_variables
 from tools import (
     run_analysis,
-    run_collection,
+    run_prefetch_collection,
+    run_event_log_collection,
     run_save,
     run_search,
     run_visualization,
     TEAM_SUPERVISOR_SYSTEM_PROMPT,
-    DATA_COLLECTION_AGENT_SYSTEM_PROMPT,
+    DATA_COLLECTION_PREFETCH_AGENT_SYSTEM_PROMPT,
+    DATA_COLLECTION_EVENT_LOG_AGENT_SYSTEM_PROMPT,
     DATA_SAVE_AGENT_SYSTEM_PROMPT,
     DATA_SEARCH_AGENT_SYSTEM_PROMPT,
     DATA_VISUALIZATION_AGENT_SYSTEM_PROMPT,
@@ -30,14 +32,16 @@ set_environment_variables("Multi_Agent_Forensic")
 
 TEAM_SUPERVISOR = "team_supervisor"
 
-DATA_COLLECTION_AGENT='data_collection_agent'
+DATA_COLLECTION_PREFETCH_AGENT='data_collection_prefetch_agent'
+DATA_COLLECTION_EVENT_LOG_AGENT='data_collection_EVENT_LOG_agent'
 DATA_SAVE_AGENT='data_save_agent'
 DATA_SEARCH_AGENT='data_search_agent'
 DATA_ANALYSIS_AGENT='data_analysis_agent'
 DATA_VISUALIZATION_AGENT='data_visualization_agent'
 
 MEMBERS = [
-    DATA_COLLECTION_AGENT,
+    DATA_COLLECTION_PREFETCH_AGENT,
+    DATA_COLLECTION_EVENT_LOG_AGENT,
     DATA_SAVE_AGENT,
     DATA_SEARCH_AGENT,
     DATA_ANALYSIS_AGENT
@@ -102,8 +106,11 @@ team_supervisor_chain = (
     | JsonOutputFunctionsParser()
 )
 
-data_collection_agent = create_agent(LLM, [run_collection], DATA_COLLECTION_AGENT_SYSTEM_PROMPT)
-data_collection_agent_node = functools.partial(agent_node, agent=data_collection_agent, name=DATA_COLLECTION_AGENT)
+data_collection_agent = create_agent(LLM, [run_prefetch_collection], DATA_COLLECTION_PREFETCH_AGENT_SYSTEM_PROMPT)
+data_collection_agent_node = functools.partial(agent_node, agent=data_collection_agent, name=DATA_COLLECTION_PREFETCH_AGENT)
+
+data_collection_agent = create_agent(LLM, [run_event_log_collection], DATA_COLLECTION_EVENT_LOG_AGENT_SYSTEM_PROMPT)
+data_collection_agent_node = functools.partial(agent_node, agent=data_collection_agent, name=DATA_COLLECTION_EVENT_LOG_AGENT)
 
 data_save_agent = create_agent(LLM, [run_save], DATA_SAVE_AGENT_SYSTEM_PROMPT)
 data_save_agent_node = functools.partial(agent_node, agent=data_save_agent, name=DATA_SAVE_AGENT)
@@ -118,7 +125,8 @@ data_analysis_agent = create_agent(LLM, [run_analysis], DATA_ANALYSIS_AGENT_SYST
 data_analysis_agent_node = functools.partial(agent_node, agent=data_analysis_agent, name=DATA_ANALYSIS_AGENT)
 
 workflow = StateGraph(AgentState)
-workflow.add_node(DATA_COLLECTION_AGENT, data_collection_agent_node)
+workflow.add_node(DATA_COLLECTION_PREFETCH_AGENT, data_collection_agent_node)
+workflow.add_node(DATA_COLLECTION_EVENT_LOG_AGENT, data_collection_agent_node)
 workflow.add_node(DATA_SAVE_AGENT, data_save_agent_node)
 workflow.add_node(DATA_SEARCH_AGENT, data_search_agent_node)
 workflow.add_node(DATA_VISUALIZATION_AGENT, data_visualization_agent_node)

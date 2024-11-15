@@ -7,9 +7,6 @@ from elasticsearch import Elasticsearch
 from datetime import datetime
 
 class RunCollectionInput(BaseModel):
-    image_description: str = Field(
-        description="A detailed description of the desired image."
-    )
     es_host: str = Field(
         description="Elasticsearch host."
     )
@@ -22,14 +19,23 @@ class RunCollectionInput(BaseModel):
     prefetch_dir: str = Field(
         description="Directory containing the prefetch files."
     )
+    start_time: str = Field(
+        description="Start Time"
+    )
+    end_time: str = Field(
+        description="End Time"
+    )
 
-@tool("run_collection", args_schema=RunCollectionInput)
+@tool("run_prefetch_collection", args_schema=RunCollectionInput)
 def run_collection(param: RunCollectionInput) -> None:
     # Prefetch data 수집
     collect_prefetch_data(param.prefetch_dir, param.es_host, param.es_port, param.index_name)
-    
+
+@tool("run_event_log_collection", args_schema=RunCollectionInput)
+def run_collection(param: RunCollectionInput) -> None:
     # Event logs 수집
-    collect_event_logs(param.es_host, param.index_name)
+    collect_event_logs(param.es_host, param.index_name, param.start_time, param.end_time)
+
 
 def collect_prefetch_data(prefetch_dir, es_host, es_port, index_name):
     for filename in os.listdir(prefetch_dir):
@@ -59,7 +65,7 @@ def create_index(es, index_name):
     else:
         print(f'Index {index_name} already exists.')
 
-def collect_event_logs(es_host, index_name):
+def collect_event_logs(es_host, index_name, start_time, end_time):
     es = Elasticsearch(es_host)
     create_index(es, index_name)
     server = 'localhost'
@@ -72,13 +78,17 @@ def collect_event_logs(es_host, index_name):
             records = win32evtlog.ReadEventLog(hand, win32evtlog.EVENTLOG_FORWARDS_READ | win32evtlog.EVENTLOG_SEQUENTIAL_READ, 0)
 
             for record in records:
-                event_data = {
-                    'EventID': record.EventID,
-                    'TimeGenerated': datetime.strptime(record.TimeGenerated.Format(), '%a %b %d %H:%M:%S %Y').isoformat(),
-                    'SourceName': record.SourceName,
-                    'Message': record.StringInserts,
-                }
-                es.index(index=index_name, document=event_data)
+                event_time = datetime.strptime(record.TimeGenerated.Format(), '%a %b %d %H: %M: %S %Y').isoformat()
+
+                if start_time <= event_time <= end_time:
+
+                    event_data = {
+                        'EventID': record.EventID,
+                        'TimeGenerated': datetime.strptime(record.TimeGenerated.Format(), '%a %b %d %H:%M:%S %Y').isoformat(),
+                        'SourceName': record.SourceName,
+                        'Message': record.StringInserts,
+                    }
+                    es.index(index=index_name, document=event_data)
 
         except Exception as e:
             print(f'Error reading event log: {e}')
