@@ -21,6 +21,10 @@ class RunSearchInput(BaseModel):
 
 @tool("run_velociraptor_search", args_schema=RunSearchInput)
 def run_search(param: str) -> str:
+    query = get_search_response(param.question)
+    return query
+
+def get_search_response(question: str) -> str:
     llm = ChatOpenAI(model_name=MODEL_NAME, temperature=0)
 
     def format_docs(docs):
@@ -33,11 +37,11 @@ def run_search(param: str) -> str:
         | StrOutputParser()
     )
 
-    res = rag_chain.invoke(
-        param.question
+    query = rag_chain.invoke(
+        question
     )
 
-    return res
+    return query
 
 def load_data():
     urls = []
