@@ -10,5 +10,7 @@ from .prompts import (
 from .analysis import run_analysis
 from .collection import run_collection
 from .save import run_save
-from .search import run_search
+from .search import run_search, load_data
 from .visualization import run_visualization
+
+RETRIEVER = load_data()
