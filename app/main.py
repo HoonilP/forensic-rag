@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .service import router
+from .service import router, routertask, routercom
 
 app = FastAPI(
     title='DFIR Program API',
@@ -20,3 +20,6 @@ app.add_middleware(
 )
 
 app.include_router(router.router)
+app.include_router(routertask.router)
+app.include_router(routercom.router)
+
