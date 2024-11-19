@@ -4,14 +4,13 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from app.database import TaskRepository, Database, Task, ComputerRepository, TaskType
-from graph.langgraph import MultiAgentForensic
-from s3service import download_image, get_logs, upload_to_s3_image
-from guard.userguard import get_current_user
+from app.graph.langgraph import MultiAgentForensic
+from app.service.s3service import download_image, get_logs, upload_to_s3_image
+from app.guard.userguard import get_current_user
 import os
 
 s3_bucket_name2 = os.getenv("S3_BUCKET_NAME2")
 
-multiAgentForensic = MultiAgentForensic()
 db = Database()  # 데이터베이스 인스턴스 생성
 task_repo = TaskRepository(db.session) 
 computer_repo = ComputerRepository(db.session)
@@ -55,10 +54,10 @@ async def create_task(task: TaskCreate, current_user_id: int = Depends(get_curre
         raise HTTPException(status_code=404, detail="Computer not found")
     
     # S3에서 로그 가져오기
-    logs = await get_logs(task.computer_id, current_user_id, task.task_type)
+    log_data = await get_logs(task.computer_id, current_user_id, task.task_type)
 
-    # MultiAgentForensic 실행
-    result = await MultiAgentForensic(logs)
+    # MultiAgentForensic 인스턴스 생성 시 logs 전달
+    result = MultiAgentForensic(log_data=log_data, log_type=task.task_type)  # logs를 인자로 전달
 
     # Task 객체 생성
     new_task = Task(
@@ -108,4 +107,3 @@ def delete_task(task_id: int):
     if not success:
         raise HTTPException(status_code=404, detail="Task not found")
     return {"detail": "Task deleted successfully"}
-
