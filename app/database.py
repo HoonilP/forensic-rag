@@ -94,6 +94,7 @@ class TaskRepository:
     def __init__(self, session: Session):
         self.session = session
 
+<<<<<<< Updated upstream
     def create_task(self, task: Task) -> Task:
         self.session.add(task)
         self.session.commit()
@@ -200,3 +201,24 @@ class UserRepository:
     def get_all_users(self) -> list[User]:
         return self.session.execute(select(User)).scalars().all()
 
+=======
+class User(Base):
+    __tablename__ = 'user'
+    id: Mapped[str] = mapped_column(String(50), primary_key=True)
+    email: Mapped[str] = mapped_column(String(50))
+    password: Mapped[str] = mapped_column(String(255))
+    organization: Mapped[str] = mapped_column(String(30))
+
+    def repr(self) -> str:
+      return (
+        f'User(id={self.id!r}, '
+        f'email={self.email!r}, '
+        f'password={self.password!r}, '
+        f'organization={self.organization!r})'
+      )
+
+class Token(Base):
+    __tablename__ = 'token'
+    access_token: Mapped[str] = mapped_column(String(50), primary_key=True)
+    token_type: Mapped[str] = mapped_column(String(50))
+>>>>>>> Stashed changes

@@ -28,12 +28,18 @@ metadata = {
 }
 
 @router.post("/signup", tags=["User"])
+<<<<<<< Updated upstream
 def signup(email: str, password: str, organization: str) -> str:
     exist = DB.check_email_duplication(email)
+=======
+def signup(user_id: str, email: str, password: str, organization: str) -> str:
+    exist = DB.check_id_duplication(user_id)
+>>>>>>> Stashed changes
 
     if exist:
         return 'Email Not Available.'
     
+<<<<<<< Updated upstream
     
     try:
         hashed_password = pwd_context.hash(password)
@@ -42,6 +48,14 @@ def signup(email: str, password: str, organization: str) -> str:
         DB.push_data(new_user)
     except Exception as err:
         return str(err)
+=======
+    else:
+        try:
+            hashed_password = pwd_context.hash(password)
+            DB.push_data(User(user_id, email, hashed_password, organization))
+        except Exception as err:
+            return err
+>>>>>>> Stashed changes
         
     return 'SignUp Successfull.'
     
