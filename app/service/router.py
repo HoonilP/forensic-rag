@@ -4,6 +4,8 @@ from fastapi.security import OAuth2PasswordBearer
 from jose import jwt
 from passlib.context import CryptContext
 from typing import Optional
+
+from pydantic import BaseModel
 from app.database import  Database, UserRepository
 from .. import DB
 from ..database import User, Token
@@ -27,47 +29,61 @@ metadata = {
     "description": "Login API"
 }
 
-@router.post("/signup", tags=["User"])
-def signup(email: str, password: str, organization: str) -> str:
-    exist = DB.check_email_duplication(email)
+class UserSignup(BaseModel):
+    email: str
+    password: str
+    organization: str
+    
+@router.post("/signup", response_model=str,tags=["User"])
+def signup(user: UserSignup):
+    exist = DB.check_email_duplication(user.email)
 
     if exist:
-        return 'Email Not Available.'
+        raise HTTPException(status_code=400, detail="Email Not Available.")
 
     try:
-        hashed_password = pwd_context.hash(password)
-        print(123)
-        new_user=User(email=email, password=hashed_password, organization=organization)
+        hashed_password = pwd_context.hash(user.password)
+        new_user = User(email=user.email, password=hashed_password, organization=user.organization)
         DB.push_data(new_user)
     except Exception as err:
-        return str(err)
+        raise HTTPException(status_code=500, detail=str(err))
         
-    return 'SignUp Successfull.'
-    
-@router.post("/signin", tags=["User"])
-def signin(email: str, password: str) -> Token:
-    authenticated = DB.authenticate_user(email, password)
+    return 'SignUp Successful.'
 
-    if authenticated:
-        user = user_repo.get_user_by_email(email)
+class UserSignIn(BaseModel):
+    email: str
+    password: str
+
+@router.post("/signin", tags=["User"])
+def signin(user:UserSignIn) -> Token:
+    try:
+        authenticated = DB.authenticate_user(user.email, user.password)
+        
+        if not authenticated:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Incorrect username or password",
+                headers={"WWW-Authenticate": "Bearer"},
+            )
+        
+        user = user_repo.get_user_by_email(user.email)
+        if not user:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
 
         access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
         access_token = create_access_token(
-            data={"sub": email, "user_id":user.id}, expires_delta=access_token_expires
+            data={"sub": user.email, "user_id": user.id}, expires_delta=access_token_expires
         )
 
         refresh_token = create_refresh_token(
-            data={"sub": email}
+            data={"sub": user.email}
         )
 
         return Token(access_token=access_token, token_type="bearer", refresh_token=refresh_token)
 
-    else:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Incorrect username or password",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
+    except Exception as err:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(err))
+
     
 @router.post("/token/refresh", tags=["User"])
 def refresh_token(refresh_token: str):

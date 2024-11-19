@@ -9,14 +9,13 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, StateGraph
-from setup_environment import set_environment_variables
-from tools import run_analysis, run_visualization, TEAM_SUPERVISOR_SYSTEM_PROMPT, FORENSIC_AGENT_SYSTEM_PROMPT, VISUALIZER_SYSTEM_PROMPT
+from app.graph.setup_environment import set_environment_variables
+from app.graph.tools import run_analysis, run_visualization, TEAM_SUPERVISOR_SYSTEM_PROMPT, FORENSIC_AGENT_SYSTEM_PROMPT, VISUALIZER_SYSTEM_PROMPT
 import json
 
 class MultiAgentForensic:
-    def __init__(self, file_path: str):
-        self.file_path = file_path
-        self.json_loaded_data = self.load_data()
+    def __init__(self, log):
+        self.json_loaded_data = log
         set_environment_variables("Multi_Agent_Forensic")
         
         self.agents = {

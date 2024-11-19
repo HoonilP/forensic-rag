@@ -4,14 +4,13 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from app.database import TaskRepository, Database, Task, ComputerRepository, TaskType
-from graph.langgraph import MultiAgentForensic
-from s3service import download_image, get_logs, upload_to_s3_image
-from guard.userguard import get_current_user
+from app.graph.langgraph import MultiAgentForensic
+from app.service.s3service import download_image, get_logs, upload_to_s3_image
+from app.guard.userguard import get_current_user
 import os
 
 s3_bucket_name2 = os.getenv("S3_BUCKET_NAME2")
 
-multiAgentForensic = MultiAgentForensic()
 db = Database()  # 데이터베이스 인스턴스 생성
 task_repo = TaskRepository(db.session) 
 computer_repo = ComputerRepository(db.session)
@@ -56,9 +55,11 @@ async def create_task(task: TaskCreate, current_user_id: int = Depends(get_curre
     
     # S3에서 로그 가져오기
     logs = await get_logs(task.computer_id, current_user_id, task.task_type)
-
+     # MultiAgentForensic 인스턴스 생성 시 logs 전달
+    multiAgentForensic = MultiAgentForensic(logs)  # logs를 인자로 전달
+    
     # MultiAgentForensic 실행
-    result = await MultiAgentForensic(logs)
+    result = await multiAgentForensic.run(initial_message="Your initial message")  # 초기 메시지를 필요에 따라 설정
 
     # Task 객체 생성
     new_task = Task(
