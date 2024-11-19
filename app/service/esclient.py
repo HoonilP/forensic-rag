@@ -1,3 +1,4 @@
+from datetime import datetime
 from elasticsearch import Elasticsearch
 
 # Elasticsearch 클라이언트 초기화

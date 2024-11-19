@@ -76,6 +76,10 @@ def agent_node(state, agent, name):
     result = agent.invoke(state)
     return {"messages": [HumanMessage(content=result["output"], name=name)]}
 
+async def async_agent_node(state: AgentState, agent, name):
+    result = await agent.ainvoke(state)
+    return {"messages": [HumanMessage(content=result["output"], name=name)]}
+
 # 라우터 함수 정의
 router_function_def = {
     "name": "route",
@@ -134,6 +138,20 @@ data_visualization_agent_node = functools.partial(agent_node, agent=data_visuali
 data_analysis_agent = create_agent(LLM, [run_analysis], DATA_ANALYSIS_AGENT_SYSTEM_PROMPT)
 data_analysis_agent_node = functools.partial(agent_node, agent=data_analysis_agent, name=DATA_ANALYSIS_AGENT)
 
+def save_file_node(state: AgentState):
+    markdown_content = str(state["messages"][-1].content)
+    filename = f"{OUTPUT_DIRECTORY}/{uuid.uuid4()}.md"
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(markdown_content)
+    return {
+        "messages": [
+            HumanMessage(
+                content=f"Output written successfully to {filename}",
+                name=SAVE_FILE_NODE_NAME,
+            )
+        ]
+    }
+
 # 상태 그래프 생성
 workflow = StateGraph(AgentState)
 
@@ -148,15 +166,8 @@ workflow.add_node(DATA_VISUALIZATION_AGENT, data_visualization_agent_node)
 workflow.add_node(DATA_ANALYSIS_AGENT, data_analysis_agent_node)
 workflow.add_node(TEAM_SUPERVISOR, team_supervisor_chain)
 
-# 각 시작 노드에서 나머지 노드로 연결 설정
-workflow.add_edge(DATA_COLLECTION_PREFETCH_AGENT, DATA_SAVE_AGENT)
-workflow.add_edge(DATA_SAVE_AGENT, DATA_SEARCH_AGENT)
-workflow.add_edge(DATA_COLLECTION_EVENT_LOG_AGENT, DATA_SAVE_AGENT)
-workflow.add_edge(DATA_SAVE_AGENT, DATA_SEARCH_AGENT)
-
-# 팀 감독자 연결 설정
-workflow.add_edge(DATA_SEARCH_AGENT, TEAM_SUPERVISOR)
-# workflow.add_edge(DATA_SEARCH_AGENT, TEAM_SUPERVISOR)
+for member in MEMBERS:
+    workflow.add_edge(member, TEAM_SUPERVISOR)
 
 # 데이터 시각화 에이전트와 종료 노드 연결
 workflow.add_edge(DATA_VISUALIZATION_AGENT, END)
@@ -171,7 +182,21 @@ workflow.add_conditional_edges(
 workflow.set_entry_point(TEAM_SUPERVISOR)
 
 # 그래프 컴파일
-travel_agent_graph = workflow.compile()
+my_agent_graph = workflow.compile()
 
-# 그래프 시각화
-travel_agent_graph.visualize()
+for chunk in my_agent_graph.stream(
+    {"messages": [HumanMessage(content="I want to go to Paris for three days")]}
+):
+    if "__end__" not in chunk:
+        print(chunk)
+        print(f"{Fore.GREEN}#############################{Style.RESET_ALL}")
+# 그래프 
+
+async def run_research_graph(input):
+    async for output in research_graph.astream(input):
+        for node_name, output_value in output.items():
+            print("---")
+            print(f"Output from node '{node_name}':")
+            print(output_value)
+        print("\n---\n")
+my_agent_graph.visualize()
