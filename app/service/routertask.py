@@ -25,7 +25,7 @@ metadata = {
 }
 
 class TaskCreate(BaseModel):
-    computer_id: int
+    computer_name: str
     task_type: TaskType  # TaskType 추가
     
     class Config:
@@ -49,21 +49,20 @@ class TaskResponse(TaskCreate):
 @router.post("/tasks/", response_model=TaskResponse)
 async def create_task(task: TaskCreate, current_user_id: int = Depends(get_current_user)):
     # 컴퓨터 확인
-    computer = await computer_repo.get_computer(task.computer_id)
+    computer = computer_repo.get_computer_id_by_name(task.computer_name)
     if not computer:
         raise HTTPException(status_code=404, detail="Computer not found")
     
     # S3에서 로그 가져오기
-    logs = await get_logs(task.computer_id, current_user_id, task.task_type)
-     # MultiAgentForensic 인스턴스 생성 시 logs 전달
-    multiAgentForensic = MultiAgentForensic(logs)  # logs를 인자로 전달
-    
-    # MultiAgentForensic 실행
-    result = await multiAgentForensic.run(initial_message="Your initial message")  # 초기 메시지를 필요에 따라 설정
+    log_data = get_logs(task.computer_name, task.task_type)
+
+    # MultiAgentForensic 인스턴스 생성 시 logs 전달
+    forensic_agent = MultiAgentForensic(log_data=log_data, log_type=task.task_type)  # logs를 인자로 전달
+    result = await forensic_agent.run()  # 비동기 실행
 
     # Task 객체 생성
     new_task = Task(
-        computer_id=task.computer_id,
+        computer_id=computer,
         analysis_result=result['summary'].strip(),
         created_at=datetime.utcnow(),
         task_type=task.task_type,
@@ -109,4 +108,3 @@ def delete_task(task_id: int):
     if not success:
         raise HTTPException(status_code=404, detail="Task not found")
     return {"detail": "Task deleted successfully"}
-

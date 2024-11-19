@@ -1,6 +1,6 @@
 from datetime import datetime
 from passlib.context import CryptContext
-from sqlalchemy import create_engine, select, ForeignKey, DateTime, Enum
+from sqlalchemy import create_engine, select, ForeignKey, DateTime, Enum, UniqueConstraint
 from sqlalchemy.orm import Session, DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy.types import String
 from sqlalchemy import Integer, Sequence
@@ -29,6 +29,8 @@ class User(Base):
         )
 class Computer(Base):
     __tablename__='computer'
+    __table_args__ = (UniqueConstraint('name'),)  # 이름을 고유하게 설정
+
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(50))
     user_id: Mapped[int] = mapped_column(Integer, ForeignKey('user.id'))
@@ -146,7 +148,12 @@ class ComputerRepository:
     def get_computer(self, computer_id: int) -> Computer:
         computer = self.session.execute(select(Computer).where(Computer.id == computer_id)).scalar_one_or_none()
         return computer
-
+    
+    def get_computer_id_by_name(self, computer_name: str) -> int:
+        """ 주어진 이름의 컴퓨터가 존재하면 해당 ID를 반환합니다. """
+        computer = self.session.execute(select(Computer).where(Computer.name == computer_name)).scalar_one_or_none()
+        return computer.id if computer else None
+    
     def update_computer(self, computer_id: int, computer_update: Computer) -> Computer:
         computer = self.get_computer(computer_id)
         if computer:
