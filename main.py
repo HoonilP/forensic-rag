@@ -20,6 +20,13 @@ from tools import (
     VISUALIZER_SYSTEM_PROMPT
 )
 
+import json
+file_path = './all_logs.json'
+
+with open(file_path, "r") as f:
+    json_loaded_data = json.load(f)
+    json_loaded_data = json.dumps(json_loaded_data)
+
 # 환경 변수 설정
 set_environment_variables("Multi_Agent_Forensic")
 
@@ -36,7 +43,7 @@ MEMBERS = [
 OPTIONS = ["FINISH"] + MEMBERS
 
 # 언어 모델 초기화
-LLM = ChatOpenAI(model="gpt-3.5-turbo-0125")
+LLM = ChatOpenAI(model="gpt-4o-mini")
 
 # 에이전트 상태 타입 정의
 class AgentState(TypedDict):
@@ -44,14 +51,23 @@ class AgentState(TypedDict):
     next: str
 
 # 에이전트 생성 함수
-def create_agent(llm: BaseChatModel, tools: list, system_prompt: str):
-    prompt_template = ChatPromptTemplate.from_messages(
-        [
-            ("system", system_prompt),
-            MessagesPlaceholder(variable_name="messages"),
-            MessagesPlaceholder(variable_name="agent_scratchpad"),
-        ]
-    )
+def create_agent(llm: BaseChatModel, tools: list, system_prompt: str, data: json = None):
+    if data:
+        prompt_template = ChatPromptTemplate.from_messages(
+            [
+                ("system", system_prompt),
+                MessagesPlaceholder(variable_name="messages"),
+                MessagesPlaceholder(variable_name="agent_scratchpad"),
+            ]
+        ).partial(json_loaded_data=data)
+    else:
+        prompt_template = ChatPromptTemplate.from_messages(
+            [
+                ("system", system_prompt),
+                MessagesPlaceholder(variable_name="messages"),
+                MessagesPlaceholder(variable_name="agent_scratchpad"),
+            ]
+        )
     agent = create_openai_tools_agent(llm, tools, prompt_template)
     agent_executor = AgentExecutor(agent=agent, tools=tools)  # type: ignore
     return agent_executor
@@ -105,7 +121,7 @@ team_supervisor_chain = (
 )
 
 # 각 에이전트 생성
-data_analysis_agent = create_agent(LLM, [run_analysis], FORENSIC_AGENT_SYSTEM_PROMPT)
+data_analysis_agent = create_agent(LLM, [run_analysis], FORENSIC_AGENT_SYSTEM_PROMPT, json_loaded_data)
 data_analysis_agent_node = functools.partial(agent_node, agent=data_analysis_agent, name=DATA_ANALYSIS_AGENT)
 
 data_visualization_agent = create_agent(LLM, [run_visualization], VISUALIZER_SYSTEM_PROMPT)
@@ -119,8 +135,8 @@ workflow.add_node(DATA_VISUALIZATION_AGENT, data_visualization_agent_node)
 workflow.add_node(DATA_ANALYSIS_AGENT, data_analysis_agent_node)
 workflow.add_node(TEAM_SUPERVISOR, team_supervisor_chain)
 
-# 각 시작 노드에서 나머지 노드로 연결 설정
-workflow.add_edge(DATA_ANALYSIS_AGENT, DATA_VISUALIZATION_AGENT)
+# # 각 시작 노드에서 나머지 노드로 연결 설정
+# workflow.add_edge(DATA_ANALYSIS_AGENT, DATA_VISUALIZATION_AGENT)
 
 # 팀 감독자 연결 설정
 workflow.add_edge(DATA_ANALYSIS_AGENT, TEAM_SUPERVISOR)
@@ -131,10 +147,18 @@ workflow.add_edge(DATA_VISUALIZATION_AGENT, END)
 
 # 조건부 엣지 설정
 conditional_map = {name: name for name in MEMBERS}
-conditional_map["FINISH"] = DATA_VISUALIZATION_AGENT
+# conditional_map["FINISH"] = DATA_VISUALIZATION_AGENT
+conditional_map["FINISH"] = END
 workflow.add_conditional_edges(
-    TEAM_SUPERVISOR, lambda x: x["next"], conditional_map
+    TEAM_SUPERVISOR,
+    lambda x: debug_return_next(x),  # 디버깅 함수로 변경
+    conditional_map
 )
+
+# 디버깅 함수 정의
+def debug_return_next(x):
+    print("Returned next value:", x["next"])  # 반환 값 출력
+    return x["next"]  # 원래 반환값 그대로 리턴
 
 workflow.set_entry_point(TEAM_SUPERVISOR)
 
@@ -142,18 +166,11 @@ workflow.set_entry_point(TEAM_SUPERVISOR)
 my_agent_graph = workflow.compile()
 
 for chunk in my_agent_graph.stream(
-    {"messages": [HumanMessage(content="I want to go to Paris for three days")]}
+    {"messages": [HumanMessage(content="이벤트 로그 분석해.")]}
 ):
-    if "__end__" not in chunk:
+    if "__end__" in chunk:
+        print("Process finished!")
+        break  # 종료 상태에 도달하면 반복 종료
+    else:
         print(chunk)
         print(f"{Fore.GREEN}#############################{Style.RESET_ALL}")
-# 그래프 
-
-async def run_research_graph(input):
-    async for output in research_graph.astream(input):
-        for node_name, output_value in output.items():
-            print("---")
-            print(f"Output from node '{node_name}':")
-            print(output_value)
-        print("\n---\n")
-my_agent_graph.visualize()

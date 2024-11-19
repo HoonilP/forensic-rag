@@ -1,0 +1,2998 @@
+[
+    {
+        "TimeGenerated": "2024-11-19 20:31:49",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:28:49",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:57",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8302,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3 | 0x0 | 462453 | 2285222 | 1025178 | 569166 | 884711 | 882651"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:57",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8301,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3 | 0x0 | 462453 | 2285222 | 1025178 | 569166 | 884711 | 882651"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-26T11:27:45Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:15",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "(Security-SPP-Reserved-EnableNotificationMode)  | 55c92734-d682-4d71-983e-d6ec3f16059f | 0567073a-7d74-403b-b2d5-6b35da372d8d"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:15",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Security-SPP-WriteWauMarker | 500"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:15",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "AAD-BlockAADWorkplaceJoin-Default | 100"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:14",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:07",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": "1155978855963167774 | 5 | StoreAgentInstallFailure1 | 사용할 수 없음 | 0 | Update;ScanForUpdates | 80248007 | 22631 | 4460 | Windows.Desktop | F |  |  |  |  | \r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.eb67c50d-4053-4ed3-9f69-769b4c356009.tmp.WERInternalMetadata.xml | \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;ScanForUp_a03c1b865f29961fdce11ebd3c184fc5e1c28_00000000_a096608c-2593-4e76-b7f9-48c919a57fc8 |  | 0 | a096608c-2593-4e76-b7f9-48c919a57fc8 | 268435456 | d979af84160941d3300adca5158c0c1e | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:03",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": " | 0 | StoreAgentInstallFailure1 | 사용할 수 없음 | 0 | Update;ScanForUpdates | 80248007 | 22631 | 4460 | Windows.Desktop | F |  |  |  |  |  | \\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\NonCritical_Update;ScanForUp_a03c1b865f29961fdce11ebd3c184fc5e1c28_00000000_a096608c-2593-4e76-b7f9-48c919a57fc8 |  | 0 | a096608c-2593-4e76-b7f9-48c919a57fc8 | 4 |  | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:27:01",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:26:13",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8300,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:26:02",
+        "SourceName": "System Restore",
+        "EventID": 8194,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 326,
+        "EventType": 4,
+        "Message": "svchost | 19016,D,50 | DS_Token_DB:  | 1 | C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\DataSharing\\Storage\\DSTokenDB2.dat | 0 | \n[1] 0.000004 +J(0)\n[2] 0.001314 -0.000236 (1) WT +J(0) +M(C:0K, Fs:17, WS:4K # 8K, PF:4K # 0K, P:4K)\n[3] 0.006205 -0.000370 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:6, WS:20K # 0K, PF:20K # 0K, P:20K)\n[4] 0.001886 +J(0)\n[5] -\n[6] 0.000333 -0.000258 (2) CM -0.000182 (2) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0)\n[7] 0.000006 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)\n[8] 0.000329 -0.000160 (1) CM -0.000116 (1) WT +J(CM:1, PgRf:1, Rd:4/1, Dy:0/0, Lg:0/0) +M(C:16K, Fs:20, WS:80K # 40K, PF:208K # 168K, P:208K)\n[9] -\n[10] -\n[11] -\n[12] 0.000013 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:54/1) +M(C:0K, Fs:1, WS:4K # 4K, PF:20K # 16K, P:20K)\n[13] 0.000427 -0.000257 (2) CM -0.000192 (2) WT +J(CM:2, PgRf:23, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:-8K, Fs:18, WS:64K # 72K, PF:-4K # 4K, P:-4K)\n[14] 0.000453 -0.000297 (2) CM -0.000223 (2) WT +J(CM:2, PgRf:40, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 4K, PF:64K # 56K, P:64K)\n[15] 0.000007 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)\n[16] 0.000010 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:1, WS:4K # 4K, PF:0K # 0K, P:0K)\n[17] 0.000048 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 16K, PF:0K # 0K, P:0K)\n[18] 0.0 +J(0)\n[19] 0.0 +J(0)\n[20] 0.000005 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0). | 1 0 | lgposAttach = 000000A9:0008:0268,\ndbv = 1568.230.500 (9480)"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 105,
+        "EventType": 4,
+        "Message": "svchost | 19016,D,0 | DS_Token_DB:  | 0 | 0 | \n[1] 0.000731 +J(0) +M(C:0K, Fs:152, WS:592K # 592K, PF:2828K # 2828K, P:2828K)\n[2] 0.000577 +J(0) +M(C:8K, Fs:172, WS:680K # 680K, PF:1224K # 1224K, P:1224K)\n[3] 0.000020 +J(0) +M(C:0K, Fs:8, WS:28K # 28K, PF:68K # 68K, P:68K)\n[4] 0.000132 +J(0) +M(C:0K, Fs:77, WS:308K # 308K, PF:180K # 180K, P:180K)\n[5] 0.006715 +J(0) +M(C:0K, Fs:37, WS:148K # 148K, PF:24K # 24K, P:24K)\n[6] 0.004910 +J(0) +M(C:0K, Fs:73, WS:288K # 288K, PF:48K # 48K, P:48K)\n[7] 0.003549 -0.000311 (2) WT +J(0) +M(C:0K, Fs:32, WS:128K # 128K, PF:64K # 64K, P:64K)\n[8] 0.027006 -0.006833 (12) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:20280/14) +M(C:0K, Fs:125, WS:340K # 344K, PF:244K # 248K, P:244K)\n[9] 0.000948 +J(0) +M(C:0K, Fs:8, WS:32K # 28K, PF:8K # 4K, P:8K)\n[10] 0.001538 -0.000476 (1) WT +J(0) +M(C:0K, Fs:0, WS:-60K # 0K, PF:-60K # 0K, P:-60K)\n[11] 0.000032 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:5, WS:20K # 0K, PF:0K # 0K, P:0K)\n[12] 0.000989 +J(0)\n[13] 0.033707 -0.000305 (2) CM -0.002288 (17) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:8759/5) +M(C:0K, Fs:66, WS:148K # 172K, PF:244K # 252K, P:244K)\n[14] 0.000020 +J(0)\n[15] 0.000019 +J(0)\n[16] 0.000871 -0.000044 (1) WT +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K). | lgposV2[] = 000000A9:0001:0000 - 000000A9:0005:0039 - 000000A9:0006:0000 - 000000A9:0006:0000 (00000000:0000:0000)\ncReInits = 1\nRBSOn = 0\n"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 302,
+        "EventType": 4,
+        "Message": "svchost | 19016,U,98 | DS_Token_DB: "
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 301,
+        "EventType": 4,
+        "Message": "svchost | 19016,R,98 | DS_Token_DB:  | C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\DataSharing\\Storage\\DSS.log | \n[1] 0.018010 -0.006309 (8) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:20280/14) +M(C:0K, Fs:71, WS:204K # 144K, PF:160K # 96K, P:160K). | FWriteLog | 2"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 300,
+        "EventType": 4,
+        "Message": "svchost | 19016,R,98 | DS_Token_DB: "
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:56",
+        "SourceName": "ESENT",
+        "EventID": 102,
+        "EventType": 4,
+        "Message": "svchost | 19016,P,98 | DS_Token_DB:  | 0 | 10 | 00 | 22631 | 0000"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:39",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:25:39",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:24:15",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:24:02",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-26T11:24:02Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:23:13",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:09:47",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-26T11:09:47Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:53",
+        "SourceName": "edgeupdate",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service stopped"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:46",
+        "SourceName": "Application",
+        "EventID": 101,
+        "EventType": 4,
+        "Message": "App Name : C:\\ProgramData\\LG Software\\LG PC Care\\LGPCCareExtension.exe\nApp Version : 1.2008.601.0"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:38",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:38",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:38",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:38",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:14",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Received Post Shell Event 2\n"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:14",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Logon: 2\n"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Log on event received User1\n"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:12",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:11",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 1,
+        "Message": "PowerEvent를 처리하지 못했습니다. 다음 오류가 발생했습니다. System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.\r\n   위치: DeviceManager.Service1.OnPowerEvent(PowerBroadcastStatus powerStatus)\r\n   위치: System.ServiceProcess.ServiceBase.DeferredPowerEvent(Int32 eventType, IntPtr eventData)"
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:10",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:10",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:10",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 20:08:09",
+        "SourceName": "Wlclntfy",
+        "EventID": 6003,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:52",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:52",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:52",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:52",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:50",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:50",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "WSearch"
+    },
+    {
+        "TimeGenerated": "2024-11-19 01:20:42",
+        "SourceName": "Desktop Window Manager",
+        "EventID": 9027,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-19 00:22:08",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T15:22:08Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-19 00:21:38",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:23:00",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T14:23:00Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:22:30",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:13:58",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:13:58",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:05:31",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T14:05:31Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 23:05:00",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:41:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T13:41:44Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:41:04",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:38:56",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:37:41",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:36:37",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T13:36:37Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:36:07",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:36:06",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T13:36:06Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:35:56",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:35:11",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:34:02",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T13:34:02Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:33:18",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:33:18",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:33:17",
+        "SourceName": "edgeupdate",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service stopped"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:33:10",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:33:06",
+        "SourceName": "AGMService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "AGMService | AGMService in OnStop"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:30:28",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10001,
+        "EventType": 4,
+        "Message": "1 | 2024-11-18T13:29:18.5362740Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:29:18",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10000,
+        "EventType": 4,
+        "Message": "1 | 2024-11-18T13:29:18.5362740Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:28:32",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 903,
+        "EventType": 0,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:28:32",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-25T13:28:32Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:28:01",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:58",
+        "SourceName": "SecurityCenter",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:56",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 902,
+        "EventType": 0,
+        "Message": "10.0.22621.4391"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:56",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "55c92734-d682-4d71-983e-d6ec3f16059f | \n1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 1 [(0 )(1 )(2 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(3 )]\n2: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n3: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n4: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n5: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n6: 3ae2cc14-ab2d-41f4-972f-5e20142771dc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n7: 4002e33a-524c-4100-8108-131a0d42c0ea, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n8: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n9: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n10: 653098ee-780d-4863-8cf2-d18399ce413b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n11: 71f411ae-7b4b-41bd-b68c-c519c499f950, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n12: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n13: 8a292df8-d653-4057-8133-a0701792f912, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n14: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n15: b0f8a518-2c58-4eb8-9319-084f0eb4ddc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n16: cd918a57-a41b-4c82-8dce-1a538e221a83, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n17: da9621af-f086-4244-b563-18611e51aa1a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n18: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n19: ed799377-74b8-4989-a244-14d082e65972, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:55",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1066,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:55",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:55",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 900,
+        "EventType": 4,
+        "Message": "<explicit>"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:27:54",
+        "SourceName": "edgeupdate",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service stopped"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:26:45",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:26:45",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:26:39",
+        "SourceName": "Application",
+        "EventID": 101,
+        "EventType": 4,
+        "Message": "App Name : C:\\ProgramData\\LG Software\\LG PC Care\\LGPCCareExtension.exe\nApp Version : 1.2008.601.0"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:56",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Received Post Shell Event 1\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:56",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Logon: 1\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:56",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Log on event received User1\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:56",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:55",
+        "SourceName": "Wlclntfy",
+        "EventID": 6003,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:55",
+        "SourceName": "LG UWP Service",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:55",
+        "SourceName": "Windows Search Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:54",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:53",
+        "SourceName": "LG Device Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:53",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "Microsoft-Windows-WMI",
+        "EventID": 5617,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "Microsoft-Windows-WMI",
+        "EventID": 5615,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "LG Time Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "LMS",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service started/resumed"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "LMS",
+        "EventID": 2000,
+        "EventType": 4,
+        "Message": "Local Management Service started."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "Wondershare InstallAssist",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Wondershare InstallAssist | WindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "VPWalletService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "VPWalletService | VPWallet Demon in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "RtkAudioUniversalService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "RtkAudioUniversalService | CppWindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "IntelDalJhi",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:52",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service started\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:51",
+        "SourceName": "AGMService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "AGMService | CppWindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:51",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service initialized"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:51",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service initializing"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:50",
+        "SourceName": "Microsoft-Windows-User Profiles Service",
+        "EventID": 1531,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:51",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service started/resumed"
+    },
+    {
+        "TimeGenerated": "2024-11-18 22:25:51",
+        "SourceName": "EventSystem",
+        "EventID": 4625,
+        "EventType": 4,
+        "Message": "86400 | SuppressDuplicateDuration | Software\\Microsoft\\EventSystem\\EventLog"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "Microsoft-Windows-User Profiles Service",
+        "EventID": 1532,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service stopped (0)\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "LMS",
+        "EventID": 2000,
+        "EventType": 4,
+        "Message": "Local Management Service stopped."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "RtkAudioUniversalService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "RtkAudioUniversalService | CppWindowsService in OnStop"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:49",
+        "SourceName": "LG Time Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 중지되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:47",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 903,
+        "EventType": 0,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:47",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T17:02:47Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:26",
+        "SourceName": ".NET Runtime Optimization Service",
+        "EventID": 1130,
+        "EventType": 0,
+        "Message": ".NET Runtime Optimization Service (4.0.30319.0) - Installed from repository: mscorlib"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:24",
+        "SourceName": ".NET Runtime Optimization Service",
+        "EventID": 1130,
+        "EventType": 0,
+        "Message": ".NET Runtime Optimization Service (4.0.30319.0) - Installed from repository: mscorlib"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:23",
+        "SourceName": "Wlclntfy",
+        "EventID": 6006,
+        "EventType": 2,
+        "Message": "TrustedInstaller | 67 | CreateSession"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:17",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 902,
+        "EventType": 0,
+        "Message": "10.0.22621.4391"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:17",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "55c92734-d682-4d71-983e-d6ec3f16059f | \n1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 )(1 )(2 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(3 )]\n2: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n3: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n4: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n5: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n6: 3ae2cc14-ab2d-41f4-972f-5e20142771dc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n7: 4002e33a-524c-4100-8108-131a0d42c0ea, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n8: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n9: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n10: 653098ee-780d-4863-8cf2-d18399ce413b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n11: 71f411ae-7b4b-41bd-b68c-c519c499f950, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n12: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n13: 8a292df8-d653-4057-8133-a0701792f912, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n14: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n15: b0f8a518-2c58-4eb8-9319-084f0eb4ddc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n16: cd918a57-a41b-4c82-8dce-1a538e221a83, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n17: da9621af-f086-4244-b563-18611e51aa1a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n18: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n19: ed799377-74b8-4989-a244-14d082e65972, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:17",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "(Security-SPP-Reserved-EnableNotificationMode)  | 55c92734-d682-4d71-983e-d6ec3f16059f | 0567073a-7d74-403b-b2d5-6b35da372d8d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:17",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Security-SPP-WriteWauMarker | 500"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:17",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "AAD-BlockAADWorkplaceJoin-Default | 100"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:16",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1066,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000\nC:\\WINDOWS\\system32\\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:16",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:16",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 900,
+        "EventType": 4,
+        "Message": "TriggerStarted:6"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:02:16",
+        "SourceName": "Wlclntfy",
+        "EventID": 6005,
+        "EventType": 2,
+        "Message": "TrustedInstaller | CreateSession"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:01:13",
+        "SourceName": "LG UWP Service",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:01:03",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:01:00",
+        "SourceName": "Wondershare InstallAssist",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Wondershare InstallAssist | WindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:01:00",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:01:00",
+        "SourceName": "LG Device Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:59",
+        "SourceName": "LG Time Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:58",
+        "SourceName": "Microsoft-Windows-WMI",
+        "EventID": 5617,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "Microsoft-Windows-WMI",
+        "EventID": 5615,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:58",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:58",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 시작되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:58",
+        "SourceName": "Desktop Window Manager",
+        "EventID": 9027,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "LMS",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service started/resumed"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "LMS",
+        "EventID": 2000,
+        "EventType": 4,
+        "Message": "Local Management Service started."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "VPWalletService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "VPWalletService | VPWallet Demon in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "AGMService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "AGMService | CppWindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "RtkAudioUniversalService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "RtkAudioUniversalService | CppWindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "IntelDalJhi",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:57",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service started\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:56",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service initialized"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:56",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service initializing"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:55",
+        "SourceName": "Microsoft-Windows-User Profiles Service",
+        "EventID": 1531,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:55",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service started/resumed"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:55",
+        "SourceName": "EventSystem",
+        "EventID": 4625,
+        "EventType": 4,
+        "Message": "86400 | SuppressDuplicateDuration | Software\\Microsoft\\EventSystem\\EventLog"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:30",
+        "SourceName": "Microsoft-Windows-User Profiles Service",
+        "EventID": 1532,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:30",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:30",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:30",
+        "SourceName": "LMS",
+        "EventID": 2000,
+        "EventType": 4,
+        "Message": "Local Management Service stopped."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:30",
+        "SourceName": "Bonjour Service",
+        "EventID": 100,
+        "EventType": 4,
+        "Message": "Service stopped (0)\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:29",
+        "SourceName": "RtkAudioUniversalService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "RtkAudioUniversalService | CppWindowsService in OnStop"
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:29",
+        "SourceName": "LG Time Manager",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 중지되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 02:00:29",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스가 종료되었습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:58:09",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:58:09",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "WSearch"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:58:09",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": " Logoff: 3\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:58:09",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": " Logoff: Test\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:58:02",
+        "SourceName": "Microsoft-Windows-Winsrv",
+        "EventID": 10001,
+        "EventType": 4,
+        "Message": "CodeSetup-stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813.tmp | 32"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:38:43",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"velociraptor-v0.73.3-windows-amd64.exe\",\"config\",\"generate\",\"-i\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:36",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 330,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,D,2 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | C:\\Users\\hipar\\AppData\\Local\\Packages\\Microsoft.ZuneVideo_8wekyb3d8bbwe\\LocalState\\Database\\anonymous\\tmp.edb | 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat) | 8920 (0x22d8) | 9480 (0x2508)"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 326,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,D,50 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | 1 | C:\\Users\\hipar\\AppData\\Local\\Packages\\Microsoft.ZuneVideo_8wekyb3d8bbwe\\LocalState\\Database\\anonymous\\EntClientDb.edb | 0 | \n[1] 0.000006 +J(0)\n[2] 0.001530 -0.000001 (1) WT +J(0) +M(C:0K, Fs:18, WS:8K # 0K, PF:8K # 0K, P:8K)\n[3] 0.006268 -0.001048 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:7, WS:20K # 0K, PF:20K # 0K, P:20K)\n[4] 0.000633 +J(0)\n[5] -\n[6] 0.144588 -0.144355 (2) CM +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 0K, PF:16K # 0K, P:16K)\n[7] -\n[8] 0.031420 -0.030773 (1) WT +J(CM:1, PgRf:1, Rd:14/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:22, WS:80K # 0K, PF:296K # 0K, P:296K)\n[9] -\n[10] -\n[11] -\n[12] 0.001710 +J(0)\n[13] 0.001162 -0.000342 (4) CM +J(CM:4, PgRf:23, Rd:0/4, Dy:0/0, Lg:0/0) +M(C:0K, Fs:24, WS:88K # 0K, PF:8K # 0K, P:8K)\n[14] 0.000327 -0.000011 (2) CM +J(CM:2, PgRf:40, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:8, WS:12K # 0K, PF:68K # 0K, P:68K)\n[15] 0.000013 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)\n[16] 0.000021 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)\n[17] 0.000109 +J(CM:0, PgRf:48, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)\n[18] 0.000002 +J(0)\n[19] 0.0 +J(0)\n[20] 0.000012 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0). | 0 0 | lgposAttach = 00000005:0090:0268,\ndbv = 1568.20.0 (8920)"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 330,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,D,50 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | C:\\Users\\hipar\\AppData\\Local\\Packages\\Microsoft.ZuneVideo_8wekyb3d8bbwe\\LocalState\\Database\\anonymous\\EntClientDb.edb | 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat) | 8920 (0x22d8) | 9480 (0x2508)"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 105,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,D,0 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | 0 | 3 | \n[1] 0.003584 +J(0) +M(C:0K, Fs:161, WS:600K # 600K, PF:2772K # 2872K, P:2772K)\n[2] 0.001499 +J(0) +M(C:0K, Fs:102, WS:408K # 408K, PF:340K # 240K, P:340K)\n[3] 0.000031 +J(0) +M(C:0K, Fs:3, WS:12K # 12K, PF:64K # 64K, P:64K)\n[4] 0.000356 +J(0) +M(C:0K, Fs:36, WS:140K # 140K, PF:172K # 172K, P:172K)\n[5] 3.097155 +J(0) +M(C:0K, Fs:7564, WS:28740K # 29120K, PF:12860K # 13436K, P:12860K)\n[6] 0.163749 +J(0) +M(C:0K, Fs:23, WS:92K # 0K, PF:12K # 0K, P:12K)\n[7] 0.008979 -0.000006 (5) WT +J(0) +M(C:0K, Fs:529, WS:2112K # 1824K, PF:2052K # 1488K, P:2052K)\n[8] 0.132901 -0.015291 (58) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:571896/383) +M(C:0K, Fs:1054, WS:632K # 640K, PF:496K # 504K, P:496K)\n[9] 0.002229 +J(0) +M(C:0K, Fs:6, WS:24K # 16K, PF:0K # 0K, P:0K)\n[10] 0.002784 -0.000005 (4) WT +J(0) +M(C:0K, Fs:1, WS:-2044K # 0K, PF:-2044K # 0K, P:-2044K)\n[11] 0.000097 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:5, WS:20K # 0K, PF:0K # 0K, P:0K)\n[12] 0.009017 -0.008817 (1) WT +J(0) +M(C:0K, Fs:4, WS:16K # 0K, PF:4K # 0K, P:4K)\n[13] 0.200244 -0.164740 (2) CM -0.018516 (18) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:8759/5) +M(C:0K, Fs:551, WS:76K # 116K, PF:92K # 96K, P:92K)\n[14] 0.000031 +J(0)\n[15] 0.000024 +J(0)\n[16] 0.001248 -0.000001 (1) WT +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K). | lgposV2[] = 00000005:0001:0000 - 00000005:008D:039F - 00000005:008E:0000 - 00000005:008E:0000 (00000000:0000:0000)\ncReInits = 46\nRBSOn = 0\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 302,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,U,98 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}: "
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 301,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,R,98 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | C:\\Users\\hipar\\AppData\\Local\\Packages\\Microsoft.ZuneVideo_8wekyb3d8bbwe\\LocalState\\Database\\anonymous\\edb.log | \n[1] 0.117931 -0.015284 (54) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:571896/383) +M(C:0K, Fs:939, WS:256K # 196K, PF:180K # 112K, P:180K). | AttachDB  | 46"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 330,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,R,98 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | C:\\Users\\hipar\\AppData\\Local\\Packages\\Microsoft.ZuneVideo_8wekyb3d8bbwe\\LocalState\\Database\\anonymous\\EntClientDb.edb | 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat) | 8920 (0x22d8) | 9480 (0x2508)"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 300,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,R,98 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}: "
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:34:16",
+        "SourceName": "ESENT",
+        "EventID": 102,
+        "EventType": 4,
+        "Message": "Video.UI | 13924,P,98 | {7D1D08C6-42FD-4C94-8F87-6B4B722904D8}:  | 0 | 10 | 00 | 22631 | 0000"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:33:21",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:31:03",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T16:31:03Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:30:33",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:30:21",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:29:11",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:28:36",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:03:42",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:03:42",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:03:42",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 01:03:42",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:53:52",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:53:52",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:46:40",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"velociraptor-v0.73.3-windows-amd64.exe\",\"--config\",\"server.config.yaml\",\"config\",\"api_client\",\"--name\",\"Hunil\",\"--role\",\"administrator\",\"api.config.yaml\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:46:02",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:46:02",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:43:57",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:43:57Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:43:17",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"velociraptor-v0.73.3-windows-amd64.exe\",\"--config\",\"server.config.yaml\",\"user\",\"add\",\"root\",\"--role\",\"administrator\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:42:53",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:29:23",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"velociraptor-v0.73.3-windows-amd64.exe\",\"config\",\"generate\",\"-i\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:28:04",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:28:04",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:28:04",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:28:04",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:27:01",
+        "SourceName": "DPTF",
+        "EventID": 17,
+        "EventType": 1,
+        "Message": "ESIF(8.7.10401.16510) TYPE: ERROR MODULE: ACTION FUNC: EsifActWriteLogHandler FILE: esif_uf_action.c LINE: 789 TIME: 426513208 ms\n\nUPE_WIFI:[WifiDev_GetChannelInfo@wifi_dev.c#356]<426513207 ms>: Error: WlanQueryInterface failed for getting current channel number [0]"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:24:30",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:24:30Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:24:17",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"C:\\\\Users\\\\hipar\\\\Downloads\\\\velociraptor-v0.73.3-windows-amd64.exe\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:24:07",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:24:07",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:24:01",
+        "SourceName": ".NET Runtime",
+        "EventID": 1000,
+        "EventType": 4,
+        "Message": "Velociraptor startup ARGV: [\"C:\\\\Users\\\\hipar\\\\Downloads\\\\velociraptor-v0.73.3-windows-amd64.exe\"]\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:23:52",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "(Security-SPP-Reserved-EnableNotificationMode)  | 55c92734-d682-4d71-983e-d6ec3f16059f | 0567073a-7d74-403b-b2d5-6b35da372d8d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:23:52",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Security-SPP-WriteWauMarker | 500"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:23:52",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "AAD-BlockAADWorkplaceJoin-Default | 100"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:23:51",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:20:08",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:20:08Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:38",
+        "SourceName": "MsiInstaller",
+        "EventID": 1042,
+        "EventType": 4,
+        "Message": "c:\\program files\\microsoft office\\root\\integration\\sppredist.msi | 16020 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:38",
+        "SourceName": "MsiInstaller",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "Office 16 Click-to-Run Licensing Component | 16.0.18129.20158 | 0 | 0 | Microsoft Corporation | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:38",
+        "SourceName": "MsiInstaller",
+        "EventID": 11707,
+        "EventType": 4,
+        "Message": "Product: Office 16 Click-to-Run Licensing Component -- Installation operation completed successfully. | (NULL) | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:38",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "0ff1ce15-a989-479d-af46-f275c6370663 | \n1: 28f64a3f-cf84-46da-b1e8-2dfa7750e491, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n2: 4c1d1588-3088-4796-b3b2-8935f3a0d886, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n3: 52287aa3-9945-44d1-9046-7a3373666821, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n4: 537ea5b5-7d50-4876-bd38-a53a77caca32, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n5: 77f47589-2212-4e3b-ad27-a900ce813837, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n6: 7ab38a1c-a803-4ca5-8ebb-f8786c4b4faa, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n7: 86af9220-9d6f-4575-bef0-619a9a6aa005, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n8: 951c0fe6-40a8-4400-8003-eec0686ffbc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n9: 95820f84-6e8c-4d22-b2ce-54953e9911bc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n10: 96353198-443e-479d-9e80-9a6d72fd1a99, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n11: a96f8dae-da54-4fad-bdc6-108da592707a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n12: ae9d158f-9450-4a0c-8c80-dd973c58357c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n13: b4af11be-5f94-4d8f-9844-ce0d5e0d8680, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n14: b58a5943-16ea-420f-a611-7b230acd762c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n15: c85fe025-b033-4f41-936b-b121521ba1c1, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n16: d7279dd0-e175-49fe-a623-8fc2fc00afc4, 1, 0 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]\n17: fb3540bc-a824-4c79-83da-6f6bd3ac6ccb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:37",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:34",
+        "SourceName": "MsiInstaller",
+        "EventID": 1040,
+        "EventType": 4,
+        "Message": "c:\\program files\\microsoft office\\root\\integration\\sppredist.msi | 16020 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:34",
+        "SourceName": "Windows Search Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:33",
+        "SourceName": "MsiInstaller",
+        "EventID": 1042,
+        "EventType": 4,
+        "Message": "c:\\program files\\microsoft office\\root\\integration\\c2rint.16.msi | 16020 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:33",
+        "SourceName": "MsiInstaller",
+        "EventID": 1035,
+        "EventType": 4,
+        "Message": "Office 16 Click-to-Run Extensibility Component | 16.0.18129.20100 | 0 | 0 | Microsoft Corporation | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:33",
+        "SourceName": "MsiInstaller",
+        "EventID": 11728,
+        "EventType": 4,
+        "Message": "제품: Office 16 Click-to-Run Extensibility Component -- 구성을 마쳤습니다. | (NULL) | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:25",
+        "SourceName": "MsiInstaller",
+        "EventID": 1040,
+        "EventType": 4,
+        "Message": "c:\\program files\\microsoft office\\root\\integration\\c2rint.16.msi | 16020 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:19:23",
+        "SourceName": "Windows Search Service",
+        "EventID": 1013,
+        "EventType": 4,
+        "Message": "\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:18:25",
+        "SourceName": "Windows Search Service",
+        "EventID": 1003,
+        "EventType": 4,
+        "Message": "\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:18:22",
+        "SourceName": "Windows Search Service",
+        "EventID": 1013,
+        "EventType": 4,
+        "Message": "\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:18:15",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:18:15Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:56",
+        "SourceName": "MsiInstaller",
+        "EventID": 1042,
+        "EventType": 4,
+        "Message": "{90160000-007E-0000-1000-0000000FF1CE} | 24716 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:56",
+        "SourceName": "MsiInstaller",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Office 16 Click-to-Run Licensing Component | 16.0.18129.20116 | 0 | 0 | Microsoft Corporation | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:56",
+        "SourceName": "MsiInstaller",
+        "EventID": 11724,
+        "EventType": 4,
+        "Message": "Product: Office 16 Click-to-Run Licensing Component -- 제거를 마쳤습니다. | (NULL) | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:55",
+        "SourceName": "MsiInstaller",
+        "EventID": 1040,
+        "EventType": 4,
+        "Message": "{90160000-007E-0000-1000-0000000FF1CE} | 24716 | (NULL) | (NULL) | (NULL) | (NULL) | "
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office95820F84-6E8C-4D22-B2CE-54953E9911BC PPD License | e4405e2b-a387-c54c-f247-89ec972d7100"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 813a28e6-643d-47da-99d8-34f41d57176c"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | ba079ef3-a0f1-42bf-9ca5-47e24b96256d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | d7ab09e5-f4e9-48f1-8a4f-1a357be5150b"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | e49410a3-77c9-4f28-9cf3-c4375bb20383"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeAE9D158F-9450-4A0C-8C80-DD973C58357C PPD License | d6336c7b-2045-b5d2-a946-fe6c4a24f207"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | b957d5ce-eaff-4f81-8abc-525cc5956558"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 5e1ad682-4bfa-4678-882d-b2170c2652fc"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 909f070a-7a68-4ed7-89a5-21a57f92bfc2"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:45",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 76def1bf-c4ae-42b6-b596-7a1143d0c273"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office86AF9220-9D6F-4575-BEF0-619A9A6AA005 PPD License | 8413facd-718d-886f-9ad4-4921183d41fa"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 9cde7f89-a7c4-452a-96e2-26bd4ce4dc3d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | e0788165-2b3b-4892-9285-aa867989fa4d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 1d165143-e051-42f2-80cb-5c040ee92c78"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 68c3f105-f4c2-4110-82c0-a9d158d23873"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeFB3540BC-A824-4C79-83DA-6F6BD3AC6CCB PPD License | f72c42e8-9b60-7062-52b7-823f7e9b316e"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 3721eab2-f1e4-416d-bc62-1fbbb7aac93e"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 2e5d78c5-9460-4baa-85ac-b4a84ddbfde9"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 125ab28e-c763-47dc-85b5-c971b4b9987b"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 527793ca-2a29-4e3d-ba75-6d8acff2639a"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office951C0FE6-40A8-4400-8003-EEC0686FFBC4 PPD License | c959a300-16e7-a661-1f76-4f2da7a96707"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 60de5bc6-b6dd-4d40-bf1b-1546f9a60a23"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | ebe60344-46e4-4cd6-92d4-022efc6b8135"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 7b3f9f22-a77d-43e5-a868-a4a900b99dee"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 6d06ff93-5804-4c45-b1e9-f18b7779f897"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office4C1D1588-3088-4796-B3B2-8935F3A0D886 PPD License | 8a1014e0-11d4-17b0-4121-016b80bdb3bb"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | c7edd022-8154-43c2-bd29-8476a5b4e522"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 5df7dfdd-b016-44f4-b953-be133b4628d0"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | b7a05ac9-e1f0-430a-a3b0-b4bdbededd28"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:44",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | eac6229a-99ec-40c9-98f1-bc1e1c28125f"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeB4AF11BE-5F94-4D8F-9844-CE0D5E0D8680 PPD License | aec114eb-c8ba-2844-d12a-860803ec3a81"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 72ca9534-5564-4d9c-be00-f68582b8c2fd"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 2ff5cd75-6810-4710-adb8-07e6fadb75cd"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 50c25a91-f48c-47df-acb5-2ceffd644cdc"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 4acb86d6-a67f-47f1-a13d-ad431969efd7"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office96353198-443E-479D-9E80-9A6D72FD1A99 PPD License | c2b94d81-78a2-b696-a524-0373c3a984b7"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | f5908cd1-dcb3-49d5-a589-fdf7adaca9b0"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | fe542008-6e44-4bde-ba26-d981d4824d55"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 0f352380-7e80-4386-9146-d73b256d5c2c"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | f69fb1cc-6e61-414f-b638-5e2675a1ee74"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office77F47589-2212-4E3B-AD27-A900CE813837 PPD License | d424b7bb-edc5-a05b-d1bf-bcbd40ccda9a"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | ab8b3268-ab5f-40fb-bfcc-6d2e3ca064d9"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 2b2ecdbe-0c96-4e61-82b1-f9e7a137d952"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 252c47af-a33f-4c32-bde5-c45a99498559"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 660ce488-081e-4b98-aa49-0fdfef7ba338"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeA96F8DAE-DA54-4FAD-BDC6-108DA592707A PPD License | 0df015f1-7beb-cf67-3fa0-ebe78531fd7a"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | a0ec3804-839c-466d-a2b6-38e7323f6042"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 95ba2b2b-0983-47e7-8a8c-1d9866b31b72"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 816a393f-5cb1-4701-b031-c14d2075ee98"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 1745df55-9ff1-44ef-88df-002da7879eed"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office28F64A3F-CF84-46DA-B1E8-2DFA7750E491 PPD License | df759870-cd68-efa7-bc5d-699fe50e25e3"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 54875f26-4389-448a-b13c-76f8d51bbe08"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:43",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 4eb2343c-57ff-4b95-8e66-626a46990ed1"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 8fadca79-dee7-4e37-9ea6-cc5c8002f484"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 843edae9-9cc0-466d-82d3-e3a6d3f0a135"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeB58A5943-16EA-420F-A611-7B230ACD762C PPD License | b5406156-6f8f-c141-f3e9-06e08214878c"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 5f84461d-8f74-4f28-99b8-943e76685ff8"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | f890fa15-e7b6-46ab-a1a5-9c64ab874226"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 9c306ee1-1dfc-4a93-a101-f5ba0530805c"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 5cc89368-c77f-4d23-aace-db0d4e0e1704"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeC85FE025-B033-4F41-936B-B121521BA1C1 PPD License | 1e701ab8-aa5b-582d-47e5-18c0a65d4565"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | d7650e97-bb0d-4f56-aec5-a549a9adfc13"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 98d496de-5223-4311-ae1b-5ce062accaf5"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 8b3cb036-abfd-4e5f-81ac-2897e2f86080"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 146cc766-7197-49f0-bef7-b83a393571f5"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office52287AA3-9945-44D1-9046-7A3373666821 PPD License | 00cd3153-3e5b-0244-7a1d-2abb59f34c52"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 9923cd40-27ba-4f16-bb60-4d9aa6b2209e"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | eb433ba1-fdce-45e8-9016-9ff038e34463"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 7cad2e6f-1b6c-4d96-8b49-d35b3f353df7"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 7d574787-221c-4474-ae69-40f5ff2f6384"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:42",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office537EA5B5-7D50-4876-BD38-A53A77CACA32 PPD License | aad6242e-0eb0-b4c1-59a6-e2997cf635ae"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | d80f0065-b726-44fd-8f97-1bcd8a43f5b9"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | 0edf743e-cd70-4dfd-ae3b-a1a6696d5b09"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Private) | 9ddb1ce7-8109-4dad-b83d-c87fbdfdb69a"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 Publishing License (Public) | 7c0d3cff-a4ae-4c5e-acd1-1a65f4e45777"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "OfficeD7279DD0-E175-49FE-A623-8FC2FC00AFC4 PPD License | 4ff34008-cee3-1b24-ba4b-823b1f88a1f4"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | bbbe7842-ec52-48b1-95e3-f9b5ddce2b1f"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | ac41629c-81f8-43a6-96e6-ab48856dca04"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office7AB38A1C-A803-4CA5-8EBB-F8786C4B4FAA PPD License | f7d3eb40-04a6-1ce2-14c7-cd798edbc795"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Private) | 36976020-2024-488f-a8b9-7a0cb96551cc"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "Office 16 UL oob License (Public) | be367098-80e7-45ba-bce7-04b3dc359143"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-bridge-office Issuance License | 4d4a5396-01a7-4ae5-9973-b53bb1af5c30"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-root-bridge-test Issuance License | 7256a55f-e989-4e06-b2c2-c527f49e4527"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-ul-oob Issuance License | 7209e8e3-cce2-49dd-8f6e-2cc8a611f202"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-ul Issuance License | ce939c0e-53f7-4011-a286-78b6975fa5f0"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-stil Issuance License | 285583cd-fc43-4806-ace6-d247b7edd434"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "client-issuance-root Issuance License | 7cbeb41c-1778-47f2-aa36-51a5a618f716"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:41",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "XrML 2.1 License - Product Key Configuration | dc6454b3-ceba-4e40-b6cc-26afb8fe8fa6"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:40",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1004,
+        "EventType": 4,
+        "Message": "XrML 2.1 License - Product Key Configuration | 6040a6e7-445d-4609-b6c4-8a66b709cb54"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:39",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:17:34",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10000,
+        "EventType": 4,
+        "Message": "0 | 2024-11-17T15:17:34.3182347Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:16:04",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:16:03",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:16:03Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:15:33",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:15:07",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:15:06Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:15:04",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10001,
+        "EventType": 4,
+        "Message": "0 | 2024-11-17T15:15:04.0995688Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:15:04",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10000,
+        "EventType": 4,
+        "Message": "0 | 2024-11-17T15:15:04.0995688Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:15:04",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10001,
+        "EventType": 4,
+        "Message": "0 | 2024-11-17T15:14:07.6705454Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:14:36",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:14:07",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10000,
+        "EventType": 4,
+        "Message": "0 | 2024-11-17T15:14:07.6705454Z"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:12:29",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:12:29Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:11:53",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:11:50",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:11:50Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:11:28",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:11:28",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:54",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "(Security-SPP-Reserved-EnableNotificationMode)  | 55c92734-d682-4d71-983e-d6ec3f16059f | 0567073a-7d74-403b-b2d5-6b35da372d8d"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:54",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Security-SPP-WriteWauMarker | 500"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:54",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "AAD-BlockAADWorkplaceJoin-Default | 100"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:53",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:52",
+        "SourceName": "AGMService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "AGMService | CppWindowsService in OnStart"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:28",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-24T15:10:28Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:10:15",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:09:56",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:09:18",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8302,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5 | 0x0 | 464073 | 2289371 | 1032183 | 572814 | 880603 | 875395"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:09:18",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8301,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5 | 0x0 | 464073 | 2289371 | 1032183 | 572814 | 880603 | 875395"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:08:34",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8303,
+        "EventType": 2,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy4 | 0x80070057 | 462431 | 2282061 | 1029313 | 569426 | 881559 | 881164"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:08:34",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8301,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy4 | 0x80070057 | 462431 | 2282061 | 1029313 | 569426 | 881559 | 881164"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:07:30",
+        "SourceName": "edgeupdate",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Service stopped"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:07:23",
+        "SourceName": "Application",
+        "EventID": 101,
+        "EventType": 4,
+        "Message": "App Name : C:\\ProgramData\\LG Software\\LG PC Care\\LGPCCareExtension.exe\nApp Version : 1.2008.601.0"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:07:17",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8300,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:06:54",
+        "SourceName": "System Restore",
+        "EventID": 8194,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.4383_none_e957b12c42d242a6\\TiWorker.exe -Embedding | Windows 모듈 설치 관리자"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:05:37",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Initialization Successful. Enabled=false, CloudPrintSolution=Unknown, DiscoveryEndpoint=, OAuthAuthority=, OAuthClientId=, DiscoveryResourceId=, PrintResourceId= | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:05:37",
+        "SourceName": "Universal Print",
+        "EventID": 1,
+        "EventType": 4,
+        "Message": "Device is neither AAD/Domain Joined or Workplace Joined. | mcpmanagementservice.dll"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:05:19",
+        "SourceName": "Microsoft-Windows-System-Restore",
+        "EventID": 8300,
+        "EventType": 4,
+        "Message": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy4"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:05:08",
+        "SourceName": "System Restore",
+        "EventID": 8194,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.4312_none_e950c5ee42d877a4\\TiWorker.exe -Embedding | Windows 모듈 설치 관리자"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:44",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Received Post Shell Event 3\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:44",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:44",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Logon: 3\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:44",
+        "SourceName": "igfxCUIService2.0.0.0",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "Log on event received User1\n"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:43",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:43",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:43",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:43",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "Wlclntfy",
+        "EventID": 6003,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 1,
+        "Message": "PowerEvent를 처리하지 못했습니다. 다음 오류가 발생했습니다. System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.\r\n   위치: DeviceManager.Service1.OnPowerEvent(PowerBroadcastStatus powerStatus)\r\n   위치: System.ServiceProcess.ServiceBase.DeferredPowerEvent(Int32 eventType, IntPtr eventData)"
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-18 00:04:42",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:36",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": " | 0 | CbsPackageServicingFailure2 | 사용할 수 없음 | 0 | 10.0.22621.4027 | Package_for_ServicingStack_4383 | 22621.4383.1.3 | amd64 | unknown | 800710fe | Execute | Staged | Installed | DISM Package Manager Provider | \r\n\\\\?\\C:\\Windows\\Logs\\WinREAgent\\setupact.log\r\n\\\\?\\C:\\$WinREAgent\\Scratch\\Mount\\Windows\\servicing\\Sessions\\25044_329843984.xml\r\n\\\\?\\C:\\WINDOWS\\Logs\\Cbs\\FilterList.log | NULL |  | 0 | c34fe4b4-e556-4068-95c8-b95823ddd586 | 2147745792 |  | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:36",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": " | 0 | CbsPackageServicingFailure2 | 사용할 수 없음 | 0 | 10.0.22621.4027 | Package_for_ServicingStack_4383 | 22621.4383.1.3 | amd64 | unknown | 800710fe | Execute | Staged | Installed | DISM Package Manager Provider |  | NULL |  | 0 | c34fe4b4-e556-4068-95c8-b95823ddd586 | 2147483648 |  | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:35",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": " | 0 | WindowsWcpOtherFailure3 | 사용할 수 없음 | 0 | 10.0.22621.4027:1 | wcp\\primitiveinstallers\\settingsinstaller.cpp | LoadSMIPrimitiveInstaller | 67 | c0000267 | 0xc351d8a0 |  |  |  |  | \r\n\\\\?\\C:\\Windows\\Logs\\WinREAgent\\setupact.log\r\n\\\\?\\C:\\$WinREAgent\\Scratch\\Mount\\Windows\\servicing\\Sessions\\25044_329843984.xml\r\n\\\\?\\C:\\WINDOWS\\Logs\\Cbs\\FilterList.log | NULL |  | 0 | f4b94c41-5e29-4463-8c0d-42b5e5c63455 | 2147745792 |  | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:35",
+        "SourceName": "Windows Error Reporting",
+        "EventID": 1001,
+        "EventType": 4,
+        "Message": " | 0 | WindowsWcpOtherFailure3 | 사용할 수 없음 | 0 | 10.0.22621.4027:1 | wcp\\primitiveinstallers\\settingsinstaller.cpp | LoadSMIPrimitiveInstaller | 67 | c0000267 | 0xc351d8a0 |  |  |  |  |  | NULL |  | 0 | f4b94c41-5e29-4463-8c0d-42b5e5c63455 | 2147483648 |  | 0"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:32",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:29",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:29",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:29",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:29",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:26",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "SessionEnv"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:26",
+        "SourceName": "Wlclntfy",
+        "EventID": 6000,
+        "EventType": 4,
+        "Message": "WSearch"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:14",
+        "SourceName": "Service1",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:14",
+        "SourceName": "LGSCService",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:14",
+        "SourceName": "LGControlCenterSVC",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:14",
+        "SourceName": "igccservice",
+        "EventID": 0,
+        "EventType": 4,
+        "Message": "서비스에서 PowerEvent를 처리했습니다."
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:36:12",
+        "SourceName": "Desktop Window Manager",
+        "EventID": 9027,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:35:32",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:34:01",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-23T12:34:01Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:33:32",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:33:30",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:33:06",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:28",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10001,
+        "EventType": 4,
+        "Message": "0 | 2024-11-16T12:30:27.7250759Z"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:28",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10005,
+        "EventType": 4,
+        "Message": "0 | 8 | 4C00470043006F006E00740072006F006C00430065006E00740065007200520054004D0061006E006100670065007200000048006E006300550070006400610074006500540072006100790000004700720061006D004C0069006E006B0045007800740065006E00730069006F006E00000048006E00630055007000640061007400650053006500720076006900630065005F00320030003200300000004C004700200044006500760069006300650020004D0061006E006100670065007200730000004C0047002000540069006D00650020004D0061006E00610067006500720000004C00470043006F006E00740072006F006C00430065006E0074006500720053005600430000004C0047005300430053006500720076006900630065000000 | 2"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:27",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10010,
+        "EventType": 2,
+        "Message": "0 | 16412 | C:\\Program Files (x86)\\LG Software\\LG gram Link\\GramLinkExtension\\GramLinkExtension.exe | GramLinkExtension | 0 | 0 | 2 | 67108865 | 1"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:27",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10010,
+        "EventType": 2,
+        "Message": "0 | 6624 | C:\\Program Files (x86)\\HNC\\Office 2020\\HncUtils\\Service\\HncUpdateTray.exe | HncUpdateTray | 0 | 0 | 2 | 67108865 | 1"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:27",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10010,
+        "EventType": 2,
+        "Message": "0 | 15848 | C:\\Program Files (x86)\\LG Software\\LG Control Center\\LGControlCenterRTManager.exe | LGControlCenterRTManager | 0 | 0 | 2 | 67108865 | 1"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:30:27",
+        "SourceName": "Microsoft-Windows-RestartManager",
+        "EventID": 10000,
+        "EventType": 4,
+        "Message": "0 | 2024-11-16T12:30:27.7250759Z"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:27:02",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-23T12:27:02Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:26:32",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:24:57",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:23:37",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:23:10",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:20:37",
+        "SourceName": "System Restore",
+        "EventID": 8216,
+        "EventType": 4,
+        "Message": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s wuauserv | Windows 업데이트"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:16:39",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:15:50",
+        "SourceName": "SecurityCenter",
+        "EventID": 15,
+        "EventType": 4,
+        "Message": "Windows Defender | SECURITY_PRODUCT_STATE_ON"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:11:15",
+        "SourceName": "VSS",
+        "EventID": 8224,
+        "EventType": 4,
+        "Message": ""
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:10:29",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16384,
+        "EventType": 4,
+        "Message": "2124-10-23T12:10:29Z | RulesEngine"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:09:59",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1033,
+        "EventType": 4,
+        "Message": "(Security-SPP-Reserved-EnableNotificationMode)  | 55c92734-d682-4d71-983e-d6ec3f16059f | 0567073a-7d74-403b-b2d5-6b35da372d8d"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:09:59",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "Security-SPP-WriteWauMarker | 500"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:09:59",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 1034,
+        "EventType": 4,
+        "Message": "AAD-BlockAADWorkplaceJoin-Default | 100"
+    },
+    {
+        "TimeGenerated": "2024-11-16 21:09:59",
+        "SourceName": "Software Protection Platform Service",
+        "EventID": 16394,
+        "EventType": 4,
+        "Message": "N/A"
+    }
+]
