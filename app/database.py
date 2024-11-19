@@ -1,10 +1,11 @@
 from datetime import datetime
 from passlib.context import CryptContext
-from sqlalchemy import create_engine, select, ForeignKey, DateTime
+from sqlalchemy import create_engine, select, ForeignKey, DateTime, Enum
 from sqlalchemy.orm import Session, DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy.types import String
 from sqlalchemy import Integer, Sequence
 from pydantic import BaseModel
+from enum import Enum as PyEnum
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -34,6 +35,14 @@ class Computer(Base):
     user: Mapped[User] = relationship("User", back_populates="computers")
     tasks: Mapped[list['Task']] = relationship("Task", back_populates="computer")
 
+class TaskType(PyEnum):
+    Prefetch= "Prefetch"
+    Application = "Application"
+    Security = "Security"
+    Forwarded = "Forwarded"
+    Setup = "Setup"
+    System = "System"
+
 class Task(Base):
     __tablename__='task'
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
@@ -44,6 +53,8 @@ class Task(Base):
     visualization_chart3: Mapped[str] = mapped_column(String(255), nullable=True)
     visualization_chart4: Mapped[str] = mapped_column(String(255), nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    # Enum 타입 추가
+    task_type: Mapped[TaskType] = mapped_column(Enum(TaskType), nullable=False)
     computer: Mapped[Computer] = relationship("Computer", back_populates="tasks")
 
 
@@ -94,18 +105,17 @@ class TaskRepository:
     def __init__(self, session: Session):
         self.session = session
 
-<<<<<<< Updated upstream
-    def create_task(self, task: Task) -> Task:
-        self.session.add(task)
+    async def create_task(self, task: Task) -> Task:
+        await self.session.add(task)
         self.session.commit()
         return task
 
-    def get_task(self, task_id: int) -> Task:
-        task = self.session.execute(select(Task).where(Task.id == task_id)).scalar_one_or_none()
+    async def get_task(self, task_id: int) -> Task:
+        task = await self.session.execute(select(Task).where(Task.id == task_id)).scalar_one_or_none()
         return task
 
-    def update_task(self, task_id: int, task_update: Task) -> Task:
-        task = self.get_task(task_id)
+    async def update_task(self, task_id: int, task_update: Task) -> Task:
+        task = await self.get_task(task_id)
         if task:
             task.analysis_result = task_update.analysis_result
             task.visualization_chart1 = task_update.visualization_chart1
@@ -115,9 +125,9 @@ class TaskRepository:
             self.session.commit()
             return task
         return None
-
-    def delete_task(self, task_id: int) -> bool:
-        task = self.get_task(task_id)
+ 
+    async def delete_task(self, task_id: int) -> bool:
+        task = await self.get_task(task_id)
         if task:
             self.session.delete(task)
             self.session.commit()
@@ -128,17 +138,17 @@ class ComputerRepository:
     def __init__(self, session: Session):
         self.session = session
 
-    def create_computer(self, computer: Computer) -> Computer:
-        self.session.add(computer)
+    async def create_computer(self, computer: Computer) -> Computer:
+        await self.session.add(computer)
         self.session.commit()
         return computer
 
-    def get_computer(self, computer_id: int) -> Computer:
-        computer = self.session.execute(select(Computer).where(Computer.id == computer_id)).scalar_one_or_none()
+    async def get_computer(self, computer_id: int) -> Computer:
+        computer = await self.session.execute(select(Computer).where(Computer.id == computer_id)).scalar_one_or_none()
         return computer
 
-    def update_computer(self, computer_id: int, computer_update: Computer) -> Computer:
-        computer = self.get_computer(computer_id)
+    async def update_computer(self, computer_id: int, computer_update: Computer) -> Computer:
+        computer = await self.get_computer(computer_id)
         if computer:
             computer.name = computer_update.name
             computer.user_id = computer_update.user_id
@@ -146,20 +156,20 @@ class ComputerRepository:
             return computer
         return None
 
-    def delete_computer(self, computer_id: int) -> bool:
-        computer = self.get_computer(computer_id)
+    async def delete_computer(self, computer_id: int) -> bool:
+        computer = await self.get_computer(computer_id)
         if computer:
             self.session.delete(computer)
             self.session.commit()
             return True
         return False
 
-    def get_all_computers(self) -> list[Computer]:
-        return self.session.execute(select(Computer)).scalars().all()
+    async def get_all_computers(self) -> list[Computer]:
+        return await self.session.execute(select(Computer)).scalars().all()
     
-    def get_computer_tasks(self, computer_id: int) -> list[Task]:
+    async def get_computer_tasks(self, computer_id: int) -> list[Task]:
         # 특정 컴퓨터에 대한 모든 태스크를 가져옵니다.
-        tasks = self.session.execute(select(Task).where(Task.computer_id == computer_id)).scalars().all()
+        tasks = await self.session.execute(select(Task).where(Task.computer_id == computer_id)).scalars().all()
         return tasks
     
 
@@ -167,21 +177,21 @@ class UserRepository:
     def __init__(self, session: Session):
         self.session = session
 
-    def create_user(self, user: User) -> User:
-        self.session.add(user)
+    async def create_user(self, user: User) -> User:
+        await self.session.add(user)
         self.session.commit()
         return user
 
-    def get_user(self, user_id: int) -> User:
-        user = self.session.execute(select(User).where(User.id == user_id)).scalar_one_or_none()
+    async def get_user(self, user_id: int) -> User:
+        user = await self.session.execute(select(User).where(User.id == user_id)).scalar_one_or_none()
         return user
     
-    def get_user_by_email(self, email: str) -> User:
-        user = self.session.execute(select(User).where(User.email == email)).scalar_one_or_none()
+    async def get_user_by_email(self, email: str) -> User:
+        user = await self.session.execute(select(User).where(User.email == email)).scalar_one_or_none()
         return user
 
-    def update_user(self, user_id: int, user_update: User) -> User:
-        user = self.get_user(user_id)
+    async def update_user(self, user_id: int, user_update: User) -> User:
+        user = await self.get_user(user_id)
         if user:
             user.email = user_update.email
             user.password = user_update.password
@@ -190,35 +200,14 @@ class UserRepository:
             return user
         return None
 
-    def delete_user(self, user_id: int) -> bool:
-        user = self.get_user(user_id)
+    async def delete_user(self, user_id: int) -> bool:
+        user = await self.get_user(user_id)
         if user:
             self.session.delete(user)
             self.session.commit()
             return True
         return False
 
-    def get_all_users(self) -> list[User]:
-        return self.session.execute(select(User)).scalars().all()
+    async def get_all_users(self) -> list[User]:
+        return await self.session.execute(select(User)).scalars().all()
 
-=======
-class User(Base):
-    __tablename__ = 'user'
-    id: Mapped[str] = mapped_column(String(50), primary_key=True)
-    email: Mapped[str] = mapped_column(String(50))
-    password: Mapped[str] = mapped_column(String(255))
-    organization: Mapped[str] = mapped_column(String(30))
-
-    def repr(self) -> str:
-      return (
-        f'User(id={self.id!r}, '
-        f'email={self.email!r}, '
-        f'password={self.password!r}, '
-        f'organization={self.organization!r})'
-      )
-
-class Token(Base):
-    __tablename__ = 'token'
-    access_token: Mapped[str] = mapped_column(String(50), primary_key=True)
-    token_type: Mapped[str] = mapped_column(String(50))
->>>>>>> Stashed changes
